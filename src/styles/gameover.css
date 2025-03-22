@@ -1,0 +1,41 @@
+/* src/styles/gameover.css */
+.game-over-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+  }
+  
+  .game-over-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .score {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .restart-button {
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .restart-button:hover {
+    background-color: #ff9900;
+  }
+  
